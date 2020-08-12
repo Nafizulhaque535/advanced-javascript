@@ -5,7 +5,7 @@
 // null
 //NaN               [Falsy]
 
-// '0', ' '
+// '0', ' '         [Truthy]
 let name = 12;
 if(name || name == 0){
     console.log("condition is true");
